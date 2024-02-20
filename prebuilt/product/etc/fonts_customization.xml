@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fonts-modification version="1">
 
+    <!-- SGR / SGM JP System font -->
+    <family customizationType="new-named-family" lang="ja">
+        <font weight="400" style="normal">sgr.ttf</font>
+        <font weight="400" style="normal" fallbackFor="serif">NotoSerifCJK-Regular.ttc</font>
+        <font weight="500" style="normal">sgm.ttf</font>
+        <font weight="700" style="normal">sgm.ttf</font>
+    </family>
+
     <!-- Accuratist -->
     <family customizationType="new-named-family" name="accuratist">
         <font weight="400" style="normal">Accuratist.ttf</font>
@@ -729,4 +737,5 @@
     <family customizationType="new-named-family" name="ZnikomitNo24">
         <font weight="300" style="normal">ZnikomitNo24.ttf</font>
     </family>
+
 </fonts-modification>
